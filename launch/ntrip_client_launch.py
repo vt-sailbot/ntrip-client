@@ -13,7 +13,7 @@ def generate_launch_description():
           DeclareLaunchArgument('debug',                 default_value='false'),
           DeclareLaunchArgument('host',                  default_value='rtk2go.com'),
           DeclareLaunchArgument('port',                  default_value='2101'),
-          DeclareLaunchArgument('mountpoint',            default_value='VTRI_RTCM3'),
+          DeclareLaunchArgument('mountpoint',            default_value='VTTI_SR_RTCM3'),
           DeclareLaunchArgument('ntrip_version',         default_value='None'),
           DeclareLaunchArgument('authenticate',          default_value='True'),
           DeclareLaunchArgument('username',              default_value='chrisjnassif@gmail.com'),
